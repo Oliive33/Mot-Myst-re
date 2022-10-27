@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mot Mystère</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Mot Mystère ❓</h2>
+      <div class="content">
+        <p class="word"></p>
+        <div class="details">
+          <p class="hint">Indice: <span></span></p>
+          <p class="time">
+            Temps restant: <span><b>30</b>s</span>
+          </p>
+        </div>
+        <input type="text" spellcheck="false" placeholder="Entrer le mot valide" />
+        <div class="buttons">
+          <button class="refresh-word">Changer de mot</button>
+          <button class="check-word">Vérifier le mot</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/words.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
